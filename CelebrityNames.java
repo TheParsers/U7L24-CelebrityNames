@@ -4,8 +4,8 @@ import java.util.*;
 /**
  * Write a description of class CelebrityNames here.
  * 
- * @author Roger Jaffe
- * @version 2015-01-19
+ * @author Nick Patrick and Yajush Sharma
+ * @version 2015-01-21
  */
 public class CelebrityNames
 {
@@ -30,8 +30,10 @@ public class CelebrityNames
         { 
             Scanner sc = new Scanner( text[j] );
             String firstName = sc.next( );
+            String middleName = sc.next( );
             String lastName = sc.next( );
-            reversedName[j] = lastName + ", " + firstName;
+            String birthDate = sc.next( );
+            reversedName[j] = lastName + ", " + firstName + " " + middleName + " -- " + birthDate;
         } 
         
         Arrays.sort(reversedName);
