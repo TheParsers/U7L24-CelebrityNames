@@ -5,7 +5,7 @@ import java.util.*;
  * Write a description of class CelebrityNames here.
  * 
  * @author Nick Patrick and Yajush Sharma
- * @version 2015-01-19
+ * @version 2015-01-21
  */
 public class CelebrityNames
 {
